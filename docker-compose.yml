@@ -11,6 +11,7 @@ services:
       DOMAINS: "core.digicre.net -> http://web:80, core2.digicre.net -> http://core_next:3000, blog.digicre.net -> http://blog_next:3000, bolide.digicre.net -> http://bolide_frontend:80"
       STAGE: "production"
       WEBSOCKET: "true"
+      CLIENT_MAX_BODY_SIZE: "200M"
     restart: always
     networks:
       - https_network
