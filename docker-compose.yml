@@ -8,7 +8,7 @@ services:
       - 80:80
       - 443:443
     environment:
-      DOMAINS: "core.digicre.net -> http://web:80, core2.digicre.net -> http://core_next:3000, blog.digicre.net -> http://blog_next:3000, bolide.digicre.net -> http://bolide_frontend:80"
+      DOMAINS: "core.digicre.net -> http://web:80, core2.digicre.net -> http://core_next:3000, blog.digicre.net -> http://blog_next:3000, bolide.digicre.net -> http://bolide_frontend:80, core3.digicre.net -> http://core3:3000, coreapi3.digicre.net -> http://digicoreapi_v3:8000"
       STAGE: "production"
       WEBSOCKET: "true"
       CLIENT_MAX_BODY_SIZE: "200M"
